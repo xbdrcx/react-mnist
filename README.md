@@ -6,15 +6,15 @@ This project involves the creating of a ReactJS application which, together with
 
 ---
 
-# What is ReactJS?
+### What is ReactJS?
 
 ReactJS is a open-source JS library used to build user interfaces.
 
-# What is TensorFlow?
+### What is TensorFlow?
 
 TensorFlow is a free and open-source library for machine learning and AI. It is used to build and deploy ML models.
 
-# What is a Convolutional Neural Network?
+### What is a Convolutional Neural Network?
 
 A Convolutional Neural Network (CNN) is a type of deep learning algorithm primarily used for analyzing visual data, such as images and videos.
 
