@@ -13,7 +13,7 @@ export default function MNIST() {
 
     // Load model on mount
     useEffect(() => {
-        tf.loadLayersModel("http://localhost:5174/projects/mnist/model/mnist_model.json")
+        tf.loadLayersModel("https://xbdrcx.github.io/react-mnist/model/mnist_model.json")
         .then((loadedModel) => {
             setModel(loadedModel);
             console.log("Model loaded!");

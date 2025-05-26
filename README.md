@@ -1,54 +1,23 @@
-# React + TypeScript + Vite
+# React MNIST
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project involves the creating of a ReactJS application which, together with TensorFlow, deliver a demonstration of AI Image Processing capabilities.
 
-Currently, two official plugins are available:
+**Live @** https://xbdrcx.github.io/react-mnist/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+# What is ReactJS?
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+ReactJS is a open-source JS library used to build user interfaces.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+# What is TensorFlow?
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+TensorFlow is a free and open-source library for machine learning and AI. It is used to build and deploy ML models.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# What is a Convolutional Neural Network?
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+A Convolutional Neural Network (CNN) is a type of deep learning algorithm primarily used for analyzing visual data, such as images and videos.
+
+---
+
+MIT License, Copyright (c) 2025 Bruno Cruz - see the LICENSE file for details.

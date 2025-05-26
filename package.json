@@ -1,5 +1,5 @@
 {
-  "homepage": "https://xbdrcx.github.io/projects/mnist",
+  "homepage": "https://xbdrcx.github.io/react-mnist",
   "name": "react-mnist",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tensorflow/tfjs": "^4.22.0",
